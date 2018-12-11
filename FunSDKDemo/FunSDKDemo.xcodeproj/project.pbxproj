@@ -281,12 +281,10 @@
 		96EFBD2621BB966A005EBA5A /* libfisheye.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96EFBCB421BB966A005EBA5A /* libfisheye.a */; };
 		96EFBD2721BB966A005EBA5A /* libFSCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96EFBCB521BB966A005EBA5A /* libFSCalendar.a */; };
 		96EFBD2821BB966A005EBA5A /* libvrsoft.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96EFBCB621BB966A005EBA5A /* libvrsoft.a */; };
-		96EFBD2921BB966A005EBA5A /* FunSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96EFBCB821BB966A005EBA5A /* FunSDK.framework */; };
 		96EFBD2A21BB966A005EBA5A /* XMNetInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96EFBCB921BB966A005EBA5A /* XMNetInterface.framework */; };
 		96EFBD2B21BB966A005EBA5A /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96EFBCBA21BB966A005EBA5A /* main.mm */; };
 		96EFBD2C21BB966A005EBA5A /* MobileImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EFBCBB21BB966A005EBA5A /* MobileImages.xcassets */; };
 		96EFBD2D21BB966A005EBA5A /* MobileVideo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96EFBCBC21BB966A005EBA5A /* MobileVideo-Info.plist */; };
-		96EFBD2E21BB966A005EBA5A /* PlayToolImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96EFBCBE21BB966A005EBA5A /* PlayToolImage.plist */; };
 		96EFBD2F21BB966A005EBA5A /* error.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96EFBCC021BB966A005EBA5A /* error.plist */; };
 		96EFBD3021BB966A005EBA5A /* PlayToolImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96EFBCC121BB966A005EBA5A /* PlayToolImage.plist */; };
 		96EFBD3321BB97C9005EBA5A /* SDKInitializeModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 96EFBD3121BB97C9005EBA5A /* SDKInitializeModel.mm */; };
@@ -790,7 +788,6 @@
 		96EFBCB421BB966A005EBA5A /* libfisheye.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfisheye.a; sourceTree = "<group>"; };
 		96EFBCB521BB966A005EBA5A /* libFSCalendar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFSCalendar.a; sourceTree = "<group>"; };
 		96EFBCB621BB966A005EBA5A /* libvrsoft.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvrsoft.a; sourceTree = "<group>"; };
-		96EFBCB821BB966A005EBA5A /* FunSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FunSDK.framework; sourceTree = "<group>"; };
 		96EFBCB921BB966A005EBA5A /* XMNetInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XMNetInterface.framework; sourceTree = "<group>"; };
 		96EFBCBA21BB966A005EBA5A /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		96EFBCBB21BB966A005EBA5A /* MobileImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MobileImages.xcassets; sourceTree = "<group>"; };
@@ -833,7 +830,6 @@
 				96EFBD2721BB966A005EBA5A /* libFSCalendar.a in Frameworks */,
 				964B89111D766A82003FA9AD /* CoreTelephony.framework in Frameworks */,
 				964B89141D766A82003FA9AD /* libsqlite3.0.dylib in Frameworks */,
-				96EFBD2921BB966A005EBA5A /* FunSDK.framework in Frameworks */,
 				964B89151D766A82003FA9AD /* libz.dylib in Frameworks */,
 				964B89171D766A82003FA9AD /* libz.1.dylib in Frameworks */,
 				964B89181D766A82003FA9AD /* libbz2.dylib in Frameworks */,
@@ -2150,7 +2146,6 @@
 		96EFBCB721BB966A005EBA5A /* library */ = {
 			isa = PBXGroup;
 			children = (
-				96EFBCB821BB966A005EBA5A /* FunSDK.framework */,
 				96EFBCB921BB966A005EBA5A /* XMNetInterface.framework */,
 			);
 			path = library;
@@ -2315,7 +2310,6 @@
 				96EFBCF721BB966A005EBA5A /* VR-cylinder_nor.png in Resources */,
 				96EFBCDE21BB966A005EBA5A /* btn_HD_F.png in Resources */,
 				96EFBCDF21BB966A005EBA5A /* btn_minus_highlighted.png in Resources */,
-				96EFBD2E21BB966A005EBA5A /* PlayToolImage.plist in Resources */,
 				96EFBD0021BB966A005EBA5A /* VR_180_sel.png in Resources */,
 				96EFBCF021BB966A005EBA5A /* 180_3R_sel.png in Resources */,
 				96EFBCCA21BB966A005EBA5A /* xmjp_cloudbox.png in Resources */,

@@ -289,7 +289,7 @@
             }
             if (msg->param1 >0) {
                 //获取门铃状态
-                if (devObject.nType == EE_DEV_IDR || devObject.nType == EE_DEV_PEEPHOLE || devObject.nType == EE_DEV_DOORLOCK  || devObject.nType == EE_DEV_CZ_IDR) {
+                if (devObject.nType == EE_DEV_IDR || devObject.nType == EE_DEV_PEEPHOLE  || devObject.nType == EE_DEV_CZ_IDR) {
                     //下面这个方法在获取设备状态回调后调用准确度最高
                     devObject.info.eFunDevState = FUN_GetDevState(SZSTR(devObject.deviceMac), EFunDevStateType_IDR);
                     NSLog(@"eFunDevState %@ %i",devObject.deviceMac,devObject.info.eFunDevState);

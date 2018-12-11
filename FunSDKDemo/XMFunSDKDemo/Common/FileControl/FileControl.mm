@@ -44,7 +44,7 @@
 }
 //判断录像文件类型是不是H265
 - (BOOL)getVideoTypeH265:(NSString*)path {
-    int videoType = FUN_MediaGetCodecType([path UTF8String]);
+    int videoType = 0;//FUN_MediaGetCodecType([path UTF8String]);
     if (videoType == 3) {
         return YES;
     }
